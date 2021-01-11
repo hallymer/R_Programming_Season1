@@ -22,7 +22,6 @@ y
 y[12] <- "twelve"
 y
 length(y)
-#주목할 부분은 NA(결측치)가 들어가있다. 결측치 안에 데이터를 넣을 수 있다.
 y[11] <- 11
 y
 #----------------------fundamental contents----------------------
@@ -34,7 +33,7 @@ is.character(m)
 class(n)
 class(m)
 
-n2 <- as.character(n) #형변환
+n2 <- as.character(n)
 class(n2)
 
 t <- c(1:5)
